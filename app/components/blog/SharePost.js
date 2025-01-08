@@ -25,7 +25,7 @@ const SharePost = ({ title, slug }) => {
     <div className="mt-8 relative">
       <hr className="w-10 mb-7 mx-auto border-t border-dark/10" />
       <p className="mb-3 text-xs opacity-65 uppercase text-center">
-        Share this post
+        Partager cet article
       </p>
       <ul className="flex items-center justify-center gap-3">
         <li>
@@ -86,7 +86,7 @@ const SharePost = ({ title, slug }) => {
           isCopied ? "opacity-50" : "opacity-0 invisible translate-y-3"
         }`}
       >
-        URL Copied to clipboard
+        URL Copié dans le presse-papier
       </div>
     </div>
   );

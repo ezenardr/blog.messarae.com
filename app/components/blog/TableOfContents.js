@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import {hidden} from "next/dist/lib/picocolors";
 
 const TableOfContents = () => {
   const [headings, setHeadings] = useState([]);
@@ -51,7 +52,7 @@ const TableOfContents = () => {
   };
 
   return (
-    <nav className="border border-[#DBD8BD] rounded-xl lg:p-6">
+    <nav className={`${!headings.length && 'hidden'} border border-[#DBD8BD] rounded-xl lg:p-6`}>
       <h3
         className="font-secondary uppercase cursor-pointer lg:cursor-auto select-none flex lg:block justify-between items-center px-5 py-4 lg:p-0"
         onClick={handleExpand}
@@ -63,15 +64,15 @@ const TableOfContents = () => {
         </span>
       </h3>
 
-      {!headings.length && (
-        <div className="mt-6 flex flex-col gap-y-4">
-          <span className="h-4 w-[60%] block bg-dark/5 rounded"></span>
-          <span className="h-4 w-3/4 block bg-dark/5 rounded"></span>
-          <span className="h-4 w-[70%] block bg-dark/5 rounded"></span>
-          <span className="h-4 w-[65%] block bg-dark/5 rounded"></span>
-          <span className="h-4 w-[50%] block bg-dark/5 rounded"></span>
-        </div>
-      )}
+      {/*{!headings.length && (*/}
+      {/*  <div className="mt-6 flex flex-col gap-y-4">*/}
+      {/*    <span className="h-4 w-[60%] block bg-dark/5 rounded"></span>*/}
+      {/*    <span className="h-4 w-3/4 block bg-dark/5 rounded"></span>*/}
+      {/*    <span className="h-4 w-[70%] block bg-dark/5 rounded"></span>*/}
+      {/*    <span className="h-4 w-[65%] block bg-dark/5 rounded"></span>*/}
+      {/*    <span className="h-4 w-[50%] block bg-dark/5 rounded"></span>*/}
+      {/*  </div>*/}
+      {/*)}*/}
       <ol
         className={`list-decimal pl-9 lg:pl-4 lg:mt-4 p-5 lg:p-0 !pt-0 ${
           expanded ? "block" : "hidden lg:block"

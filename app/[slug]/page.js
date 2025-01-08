@@ -175,7 +175,7 @@ const BlogDetails = async ({ params }) => {
                     </div>
 
                     <p className="inline-flex items-center gap-3 mt-4 group-hover:text-primary transition-all duration-200 underline decoration-[#b4b6b9] group-hover:decoration-primary">
-                      Read Posts of - {author}
+                      Parcourir les Posts de - {author}
                       {/* prettier-ignore */}
                       <svg className="relative top-[2px]" width="10" height="10" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.33008 17.4023L17.3301 1.40234M17.3301 1.40234H2.93008M17.3301 1.40234V15.8023" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>
                     </p>

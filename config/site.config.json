@@ -1,16 +1,16 @@
 {
   "metaData": {
-    "title" : "Eyolo - React NextJS Blog Template",
-    "description" : "A modern and feature-rich blog template built with React, NextJS, and Tailwind CSS.",
+    "title" : "De vous à moi - Votre voix, Ma plume: un dialogue intime",
+    "description" : "Je suis heureuse de vous accueillir dans mon univers , où l'écriture est devenue un pilier essentiel de ma vie. Je nous souhaite beaucoup de positif, de sérénité et des souvenirs mémorables. Cheers !",
     "author" : "",
     "keyword" : "minimal",
-    "ogImage" : "/images/ogimage.jpg"
+    "ogImage" : "/images/opengraph-image.jpg"
   },
   "baseURL" : "",
-  "siteURL" : "https://eyolo-nextjs.vercel.app",
+  "siteURL" : "https://blog.messarae.com",
   "logo" : "/images/logo.svg",
   "logoWhite" : "/images/logo-white.svg",
-  "logoText" : "Eyolo",
+  "logoText" : "De vous à moi",
   "favicon" : "/images/favicon.png",
 
   "subscriptionFormspreeID" : "xnqeeyyp",

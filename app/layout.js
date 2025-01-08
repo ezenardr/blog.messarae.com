@@ -16,19 +16,19 @@ export const metadata = {
     icon: "/images/favicon.png",
   },
 
-  metadataBase: new URL("https://eyolo-nextjs.vercel.app"),
+  metadataBase: new URL("https://blog.messarae.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    images: "/images/ogimage.jpg",
+    images: "/images/opengraph-image.jpg",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="fr"
       className={`${fontPrata.variable} ${fontLexendDeca.variable}`}
     >
       <body className="font-secondary">
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           zIndex={9999999}
           height={2}
         />
-        <DeviceSizeIndicator />
+        {/*<DeviceSizeIndicator />*/}
         {children}
       </body>
     </html>

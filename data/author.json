@@ -18,6 +18,15 @@
     "content": "Kathryn Jackson is a passionate writer with a knack for weaving captivating stories. Her interests span across travel, history, and the culinary arts. When not crafting compelling content, you can find her exploring hidden gems or whipping up delicious meals in her kitchen."
   },
   {
+    "slug": "messara-ezenard",
+    "frontmatter": {
+      "title": "Messara Ezenard",
+      "subtitle": "Assistante Technique en Pharmacie et Rédactrice Web",
+      "image": "/images/author/messara-ezenard.jpg"
+    },
+    "content": "Messara Ezenard allie expertise technique et passion pour l’écriture dans chacun de ses travaux. Assistante technique en pharmacie et rédactrice web talentueuse, elle excelle à créer des contenus à la fois informatifs et captivants. Lorsqu’elle n’écrit pas, Messara aime explorer de nouvelles idées et perfectionner ses compétences, tant sur le plan professionnel que créatif."
+  },
+  {
     "slug": "nilima-nike",
     "frontmatter": {
       "title": "Nilima Nike",
