@@ -35,6 +35,4 @@ yarn-error.log*
 next-env.d.ts
 
 # ignore lock files
-*.lock
-yarn.lock
 package-lock.json
