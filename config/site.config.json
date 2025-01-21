@@ -16,32 +16,20 @@
   "subscriptionFormspreeID" : "xnqeeyyp",
 
   "footerWidgets": {
-    "email" : "hello@authormail.com",
+    "email" : "contact@messarae.com",
     "phone" : "+1 (555) 123-4567"
   },
 
   "footerLinks": [
     {
-      "title": "About",
+      "title": "A Propos",
       "url": "/about"
-    },
-    {
-      "title": "Archive",
-      "url": "/archive"
     },
     {
       "title": "Contact",
       "url": "/contact"
-    },
-    {
-      "title": "Privacy Policy",
-      "url": "/privacy"
-    },
-    {
-      "title": "Terms",
-      "url": "/terms"
     }
   ],
 
-  "copyright" : "© 2024 Eyolo, Inc. All rights reserved."
+  "copyright" : "© 2025 Web Waze Digital, Inc. All rights reserved."
 }

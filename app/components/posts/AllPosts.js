@@ -96,17 +96,18 @@ const AllPosts = ({ postsPerPage }) => {
               <p className="flex items-center justify-center md:justify-start gap-x-2 mb-6 sm:mb-8">
                 {/* prettier-ignore */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 2h18" /><rect width="18" height="12" x="3" y="6" rx="2" /><path d="M3 22h18" /></svg>
-                <span>Explorer All</span>
+                <span>Explorez tout</span>
               </p>
               <h1 className="text-4xl md:text-5xl text-white font-normal text-balance leading-tight capitalize relative z-10 mix-blend-difference text-center md:text-left">
                 <span className="hidden md:inline-block bg-white w-6 md:w-10 h-px align-middle mr-4 md:mr-6"></span>
-                {capitalizeText(
-                  filterParams.get("filter") == null ||
-                    filterParams.get("filter") === "" ||
-                    !postFilters.includes(filterParams.get("filter"))
-                    ? "Blogs from Eyolo"
-                    : `${filterParams.get("filter")} Posts`
-                )}
+                  {capitalizeText('Nos articles')}
+                {/*{capitalizeText(*/}
+                {/*  filterParams.get("filter") == null ||*/}
+                {/*    filterParams.get("filter") === "" ||*/}
+                {/*    !postFilters.includes(filterParams.get("filter"))*/}
+                {/*    ? "Nos articles"*/}
+                {/*    : `${filterParams.get("filter")} Posts`*/}
+                {/*)}*/}
               </h1>
             </div>
             <div className="md:col-4 text-center md:text-end">

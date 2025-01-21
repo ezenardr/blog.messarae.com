@@ -94,7 +94,7 @@ const Search = ({ searchOpen, toggleSearch }) => {
                 setSearchTerm(e.target.value.toLowerCase());
               }}
               type="text"
-              placeholder="Search entire blog..."
+              placeholder="Recherchez..."
               aria-label="search-query"
               className="bg-transparent border-b border-borderLight focus:ring-0 focus:outline-none w-full text-dark py-3 sm:py-4 text-xl sm:text-3xl font-primary placeholder:text-[#817E61] px-9 sm:px-12 focus:border-primary transition-all duration-500 outline-none shadow-none"
             />
@@ -122,22 +122,21 @@ const Search = ({ searchOpen, toggleSearch }) => {
                   {searchTerm ? (
                     searchResults.length > 0 ? (
                       <>
-                        Found{" "}
                         <span>
                           {searchResults.length.toString().padStart(2, 0)}
                         </span>{" "}
-                        Results for <span>{searchTerm}</span>
+                        Résultats touvé pour <span>{searchTerm}</span>
                       </>
                     ) : (
                       <p>
-                        We couldn't find a match for "
+                        Nous n'avons pas trouvé de correspondance pour "
                         <span className="text-primary">{searchTerm}</span>
                         " <br />
-                        Please try something else..
+                        Veuillez essayer autre chose...
                       </p>
                     )
                   ) : (
-                    <i className="uppercase not-italic">Recent Posts</i>
+                    <i className="uppercase not-italic">Les plus Récents</i>
                   )}
                 </h2>
               </div>
@@ -225,7 +224,7 @@ const Search = ({ searchOpen, toggleSearch }) => {
               <div className="mt-14">
                 <div className="mb-8">
                   <h2 className="text-base uppercase font-secondary pl-4 relative after:absolute after:rounded-full -mt-1 after:content-[''] after:h-2 after:w-2 after:bg-primary after:left-0 after:top-2">
-                    Browse posts by Topics
+                    Recherchez par catégories
                   </h2>
                 </div>
 

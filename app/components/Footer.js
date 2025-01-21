@@ -15,32 +15,32 @@ const Footer = () => {
       <div className="container">
         <div className="border-t-2 border-[#2F2F2F] pt-10 mb-6">
           <h2 className="text-white text-4xl sm:text-5xl md:text-6xl">
-            Get In Touch
+            Contactez-nous
           </h2>
         </div>
         <div className="row gy-4">
           <div className="lg:col-5">
             <p className="font-light max-w-xs">
-              Feel free to reach out with questions or Project inquiries.
+              N&apos;hésitez pas à nous contacter pour toute question ou suggestion.
             </p>
           </div>
           <div className="lg:col-7">
             <div className="row gy-4">
-              <div className="sm:col-5 md:col-4">
-                <h3 className="text-white text-2xl sm:text-3xl mb-4">
-                  Contact
-                </h3>
-                <p className="uppercase">
-                  <Link
-                    href={`tel:${phoneNumberTel}`}
-                    className="has-line-link-white"
-                  >
-                    <span className="line-link-el">
-                      {config.footerWidgets.phone}
-                    </span>
-                  </Link>
-                </p>
-              </div>
+              {/*<div className="sm:col-5 md:col-4">*/}
+              {/*  <h3 className="text-white text-2xl sm:text-3xl mb-4">*/}
+              {/*    Contact*/}
+              {/*  </h3>*/}
+              {/*  <p className="uppercase">*/}
+              {/*    <Link*/}
+              {/*      href={`tel:${phoneNumberTel}`}*/}
+              {/*      className="has-line-link-white"*/}
+              {/*    >*/}
+              {/*      <span className="line-link-el">*/}
+              {/*        {config.footerWidgets.phone}*/}
+              {/*      </span>*/}
+              {/*    </Link>*/}
+              {/*  </p>*/}
+              {/*</div>*/}
               <div className="sm:col-5 md:col-4">
                 <h3 className="text-white text-2xl sm:text-3xl mb-4">Email</h3>
                 <p className="uppercase">

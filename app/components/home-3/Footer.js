@@ -8,7 +8,8 @@ import Link from "next/link";
 import SocialLinks from "../essential/SocialLinks";
 
 const Footer = () => {
-  const logoWhite = config.logoWhite;
+  const logoWhite = false;
+  // const logoWhite = config.logoWhite;
   const logoText = config.logoText;
 
   const phoneNumberTel = config.footerWidgets.phone
@@ -44,7 +45,7 @@ const Footer = () => {
                   priority={true}
                 />
               ) : (
-                <span className="text-3xl text-black">{logoText}</span>
+                <span className="text-3xl text-white">{logoText}</span>
               )}
             </Link>
 
@@ -63,7 +64,7 @@ const Footer = () => {
 
           <div className="md:col-10 lg:col-5 xl:col-4">
             <h2 className="text-white text-3xl lg:text-4xl mb-5 lg:mb-8 text-balance capitalize !leading-snug">
-              Subscribe to weekly newsletter
+              Restez inspiré et informé
             </h2>
 
             <form
@@ -107,21 +108,21 @@ const Footer = () => {
 
           <div className="lg:col-3">
             <div className="row gy-4">
-              <div className="sm:col-5 md:col-4 lg:col-12">
-                <h3 className="text-white text-2xl sm:text-3xl mb-4">
-                  Contact
-                </h3>
-                <p className="uppercase">
-                  <Link
-                    href={`tel:${phoneNumberTel}`}
-                    className="has-line-link-white"
-                  >
-                    <span className="line-link-el">
-                      {config.footerWidgets.phone}
-                    </span>
-                  </Link>
-                </p>
-              </div>
+              {/*<div className="sm:col-5 md:col-4 lg:col-12">*/}
+              {/*  <h3 className="text-white text-2xl sm:text-3xl mb-4">*/}
+              {/*    Contact*/}
+              {/*  </h3>*/}
+              {/*  <p className="uppercase">*/}
+              {/*    <Link*/}
+              {/*      href={`tel:${phoneNumberTel}`}*/}
+              {/*      className="has-line-link-white"*/}
+              {/*    >*/}
+              {/*      <span className="line-link-el">*/}
+              {/*        {config.footerWidgets.phone}*/}
+              {/*      </span>*/}
+              {/*    </Link>*/}
+              {/*  </p>*/}
+              {/*</div>*/}
               <div className="sm:col-5 md:col-4 lg:col-12">
                 <h3 className="text-white text-2xl sm:text-3xl mb-4">Email</h3>
                 <p className="uppercase">

@@ -13,7 +13,7 @@ const Banner = ({ banner, featuredPost, topPosts }) => {
       {banner.enable && (
         <div className="py-10 px-3 md:px-10 xl:px-1">
           <h1 className="text-4xl xl:text-5xl text-white leading-normal sm:!leading-relaxed text-center text-balance">
-            Engaging Dialogues with the Exceptional
+              Votre voix, Ma plume: un dialogue intime
           </h1>
         </div>
       )}

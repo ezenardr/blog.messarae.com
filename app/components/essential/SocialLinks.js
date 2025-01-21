@@ -21,7 +21,7 @@ const SocialLinks = ({ dark, isFooter, border }) => {
     >
       <li>
         <Link
-          href="https://facebook.com"
+          href="https://www.facebook.com/profile.php?id=100091865442401"
           target="_blank"
           aria-label="Check out our Facebook"
           className={`inline-block rounded-full has-transition ${
@@ -35,25 +35,25 @@ const SocialLinks = ({ dark, isFooter, border }) => {
           <IconBrandFacebook height="20" width="20" stroke={1.5} />
         </Link>
       </li>
+      {/*<li>*/}
+      {/*  <Link*/}
+      {/*    href="https://twitter.com"*/}
+      {/*    target="_blank"*/}
+      {/*    aria-label="Check out our Twitter"*/}
+      {/*    className={`inline-block rounded-full has-transition ${*/}
+      {/*      isFooter ? "p-[10px] md:p-3" : "p-3"*/}
+      {/*    } ${border ? "border border-border p-2" : ""} ${*/}
+      {/*      dark*/}
+      {/*        ? "text-white hover:bg-white hover:text-dark"*/}
+      {/*        : "hover:bg-dark hover:text-white"*/}
+      {/*    }`}*/}
+      {/*  >*/}
+      {/*    <IconBrandTwitter height="20" width="20" stroke={2} />*/}
+      {/*  </Link>*/}
+      {/*</li>*/}
       <li>
         <Link
-          href="https://twitter.com"
-          target="_blank"
-          aria-label="Check out our Twitter"
-          className={`inline-block rounded-full has-transition ${
-            isFooter ? "p-[10px] md:p-3" : "p-3"
-          } ${border ? "border border-border p-2" : ""} ${
-            dark
-              ? "text-white hover:bg-white hover:text-dark"
-              : "hover:bg-dark hover:text-white"
-          }`}
-        >
-          <IconBrandTwitter height="20" width="20" stroke={2} />
-        </Link>
-      </li>
-      <li>
-        <Link
-          href="https://instagram.com"
+          href="https://www.instagram.com/ezenardmessara/"
           target="_blank"
           aria-label="Check out our Instagram"
           className={`inline-block rounded-full has-transition ${
@@ -67,24 +67,24 @@ const SocialLinks = ({ dark, isFooter, border }) => {
           <IconBrandInstagram height="20" width="20" stroke={2} />
         </Link>
       </li>
-      <li>
-        <Link
-          href="/rss.xml"
-          prefetch={false}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Read RSS Feed"
-          className={`inline-block rounded-full has-transition ${
-            isFooter ? "p-[10px] md:p-3" : "p-3"
-          } ${border ? "border border-border p-2" : ""} ${
-            dark
-              ? "text-white hover:bg-white hover:text-dark"
-              : "hover:bg-dark hover:text-white"
-          }`}
-        >
-          <IconRss height="20" width="20" stroke={2} />
-        </Link>
-      </li>
+      {/*<li>*/}
+      {/*  <Link*/}
+      {/*    href="/rss.xml"*/}
+      {/*    prefetch={false}*/}
+      {/*    target="_blank"*/}
+      {/*    rel="noopener noreferrer"*/}
+      {/*    aria-label="Read RSS Feed"*/}
+      {/*    className={`inline-block rounded-full has-transition ${*/}
+      {/*      isFooter ? "p-[10px] md:p-3" : "p-3"*/}
+      {/*    } ${border ? "border border-border p-2" : ""} ${*/}
+      {/*      dark*/}
+      {/*        ? "text-white hover:bg-white hover:text-dark"*/}
+      {/*        : "hover:bg-dark hover:text-white"*/}
+      {/*    }`}*/}
+      {/*  >*/}
+      {/*    <IconRss height="20" width="20" stroke={2} />*/}
+      {/*  </Link>*/}
+      {/*</li>*/}
     </ul>
   );
 };

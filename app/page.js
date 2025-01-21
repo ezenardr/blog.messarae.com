@@ -45,13 +45,13 @@ const Home = async () => {
   // Popular posts
   const popularPosts =
     allPosts
-      .filter(
-        (post) =>
-          !isPostInArray(post, topPosts) &&
-          post.slug !== featuredPost.slug &&
-          post.frontmatter.trending &&
-          post.frontmatter.featured
-      )
+      // .filter(
+      //   (post) =>
+      //     // !isPostInArray(post, topPosts) &&
+      //     // post.slug !== featuredPost.slug &&
+      //     post.frontmatter.trending &&
+      //     post.frontmatter.featured
+      // )
       .slice(0, 6) || [];
 
   return (
@@ -76,14 +76,14 @@ const Home = async () => {
                     <div className="hidden md:inline-block">
                       <Link
                         className="button group animate-top-right"
-                        href="/blog?filter=popular"
+                        href="/blog"
                       >
                         <span className="relative overflow-hidden transition-none [&>span]:block">
                           <span className="group-hover:-translate-y-[200%] group-hover:scale-y-[2] group-hover:rotate-12">
-                            All Posts
+                            Voir tout
                           </span>
                           <span className="absolute left-0 top-0 scale-y-[2] rotate-12 translate-y-[200%] group-hover:translate-y-0 group-hover:scale-y-100 group-hover:rotate-0">
-                            All Posts
+                            Voir tout
                           </span>
                         </span>
                         <span className="overflow-hidden leading-none -translate-y-[2px]">

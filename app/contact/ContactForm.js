@@ -54,7 +54,7 @@ const ContactForm = () => {
         <label htmlFor="name" className="flex items-center gap-x-2">
           {/* prettier-ignore */}
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M20 21a8 8 0 0 0-16 0" /></svg>
-          <span>Full Name</span>
+          <span>Nom Complet</span>
         </label>
         <input
           type="text"
@@ -69,7 +69,7 @@ const ContactForm = () => {
         <label htmlFor="email" className="flex items-center gap-x-2">
           {/* prettier-ignore */}
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
-          <span>Email Address</span>
+          <span>Adresse Mail</span>
         </label>
         <input
           id="email"
@@ -91,7 +91,7 @@ const ContactForm = () => {
           id="message"
           name="message"
           className="w-full mt-4 bg-transparent border-b-2 border-[#c7c6bb] pb-4 focus:outline-none focus:border-primary resize-none autofill-light placeholder:text-[#817E61]"
-          placeholder="Tell more about your idea"
+          placeholder="Parlez-en davantage à propos de votre idée."
         ></textarea>
       </div>
       <div>
@@ -109,12 +109,12 @@ const ContactForm = () => {
           <span className="relative overflow-hidden transition-none [&>span]:block">
             <span className="group-hover:-translate-y-[200%] group-hover:scale-y-[2] group-hover:rotate-12">
               <i className="not-italic">
-                {!loading ? "Send Message" : "Sending.."}
+                {!loading ? "Envoyez votre message" : "Envoie.."}
               </i>
             </span>
             <span className="absolute left-0 top-0 scale-y-[2] rotate-12 translate-y-[200%] group-hover:translate-y-0 group-hover:scale-y-100 group-hover:rotate-0">
               <i className="not-italic">
-                {!loading ? "Send Message" : "Sending.."}
+                {!loading ? "Envoyez votre message" : "Envoie.."}
               </i>
             </span>
           </span>

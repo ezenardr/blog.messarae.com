@@ -54,10 +54,10 @@ const Newsletter = ({ newsletterOpen, toggleNewsletter }) => {
                 {/* prettier-ignore */}
                 <svg className="w-12 h-12 mx-auto mb-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" /></svg>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl text-balance !leading-tight text-white mb-6 max-w-sm mx-auto text-center">
-                  Subscribe to get the New e-book
+                  Restez inspiré(e) et informé(e)
                 </h2>
                 <p className="font-extralight leading-relaxed sm:mb-6">
-                  Subscribe for the news, articles, resources.
+                  Découvrez nos derniers articles et actualités directement dans votre boîte mail !
                 </p>
               </div>
 
@@ -71,7 +71,7 @@ const Newsletter = ({ newsletterOpen, toggleNewsletter }) => {
                   >
                     <div>
                       <label htmlFor="name" className="font-light mb-2 block">
-                        Your Name <span className="text-primary">*</span>
+                        Votre Nom <span className="text-primary">*</span>
                       </label>
                       <input
                         id="name"
@@ -87,7 +87,7 @@ const Newsletter = ({ newsletterOpen, toggleNewsletter }) => {
                     </div>
                     <div>
                       <label htmlFor="email" className="font-light mb-2 block">
-                        Your Unique Email{" "}
+                        Votre Email Unique
                         <span className="text-primary">*</span>
                       </label>
                       <input
@@ -106,7 +106,7 @@ const Newsletter = ({ newsletterOpen, toggleNewsletter }) => {
                       {/* prettier-ignore */}
                       <svg className="flex-shrink-0" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10.3333L8.4615 13L14 7M19 10C19 14.9706 14.9706 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10Z" stroke="#415649" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                       <span className="text-sm text-[#464536] font-light">
-                        I Will appreciate receiving future promotional mails.
+                        Je serai ravi(e) de recevoir vos futurs e-mails promotionnels.
                       </span>
                     </div>
 

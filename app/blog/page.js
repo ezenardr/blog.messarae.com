@@ -3,8 +3,8 @@ import AllPosts from "@/components/posts/AllPosts";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "All Blog Posts",
-  description: "All of Eyolo's Blog Posts",
+  title: "Tous les articles",
+  description: "Je suis heureuse de vous accueillir dans mon univers , où l'écriture est devenue un pilier essentiel de ma vie. Je nous souhaite beaucoup de positif, de sérénité et des souvenirs mémorables. Cheers !",
 };
 
 const AllBlog = () => {

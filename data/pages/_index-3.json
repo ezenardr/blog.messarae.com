@@ -10,11 +10,11 @@
     },
     "popularArticles": {
       "enable": true,
-      "title": "Popular Articles"
+      "title": "Les Plus Populaires"
     },
     "sidebar": {
       "adBanner": {
-        "enable": true,
+        "enable": false,
         "title": "Dive Deep Into Thought and Know More Things",
         "image": "/images/ad-banner.jpg",
         "button": {
@@ -23,28 +23,28 @@
         }
       },
       "instagram": {
-        "enable": true,
+        "enable": false,
         "title": "Instagram Posts"
       },
       "subscriptionForm": {
         "enable": true,
         "title": "Newsletter",
-        "buttonLabel": "Subscribe"
+        "buttonLabel": "S'abonner"
       }
     },
     "exploreTopics": {
       "enable": true,
-      "title": "Explore Topics",
+      "title": "Explorer les sujets",
       "button": {
-        "label": "All Categories",
+        "label": "Voir tout",
         "link": "/category"
       }
     },
     "latestArticles": {
       "enable": true,
-      "title": "Latest Articles",
+      "title": "Derniers Articles",
       "button": {
-        "label": "All Posts",
+        "label": "Voir Tout",
         "link": "/blog"
       }
     }
