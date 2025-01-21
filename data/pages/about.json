@@ -1,27 +1,27 @@
 {
   "slug": "about",
   "frontmatter": {
-    "title": "All About Eyolo",
-    "description": "We always enjoy seeing the different ways people read our blog. Browse the articles to get fresh new insight into the world of business and get inspired.",
+    "title": "De vous à moi - Votre voix, Ma plume: un dialogue intime",
+    "description": "e suis heureuse de vous accueillir dans mon univers , où l'écriture est devenue un pilier essentiel de ma vie. Je nous souhaite beaucoup de positif, de sérénité et des souvenirs mémorables. Cheers !",
     "banner": {
       "title": {
         "divider": true,
-        "first_half": "Creating Eyolo Has Been",
-        "second_half": "The Most Amazing Experience For Us Since 1998"
+        "first_half": "Créer De Vous à Moi a été",
+        "second_half": "l'une des expériences les plus incroyables"
       },
-      "image_01": "/images/about/about-1.jpg",
-      "image_02": "/images/about/about-2.jpg",
-      "description": "We always enjoy seeing the different ways people read our blog. Browse the articles to get fresh new insight into the world of business and get inspired.\n"
+      "image_01": "/images/about/about-1.webp",
+      "image_02": "/images/about/about-2.webp",
+      "description": "Nous adorons découvrir les différentes façons dont vous explorez notre blog. Parcourez nos articles pour trouver de nouvelles perspectives sur le monde des affaires et laissez-vous inspirer."
     },
     "authors": {
-      "enable": true,
+      "enable": false,
       "title": "Meet our authors",
       "button": {
         "label": "All Author",
         "link": "/author"
       },
       "join_team": {
-        "enable": true,
+        "enable": false,
         "title": "It's You",
         "subtitle": "Join our team",
         "join_url": "/contact",
@@ -29,9 +29,9 @@
       }
     },
     "about_info": {
-      "title": "Why we're writing for Grafi Webflow Blog Template each day?",
+      "title": "Pourquoi écrivons-nous chaque jour pour le blog De Vous à Moi ?",
       "image": "/images/about/about.jpg"
     }
   },
-  "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.\r\n\r\nLorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in 1.10.32.R"
+  "content": "Nous écrivons chaque jour pour le blog De Vous à Moi parce que nous sommes convaincus que les mots ont le pouvoir de transformer les idées en expériences partagées. À travers nos articles, nous cherchons à explorer des thématiques variées, à offrir des perspectives uniques et à créer un espace où la réflexion et l’inspiration se rencontrent. Ce blog est bien plus qu’un simple projet d’écriture ; c’est un moyen de tisser des liens, de susciter des émotions et d’apporter de la valeur à nos lecteurs, qu’ils soient en quête de conseils pratiques, de récits captivants ou de moments d’évasion.\r\n\r\nChaque jour, nous trouvons de nouvelles raisons de poser nos idées sur papier et de les partager avec vous. Que ce soit pour répondre à une question, éclairer un sujet complexe ou simplement raconter une histoire qui résonne, notre passion pour l’écriture alimente ce voyage quotidien. De Vous à Moi est une aventure que nous construisons avec et pour vous, nos lecteurs, car vos retours, vos interactions et vos inspirations donnent vie à chaque mot que nous écrivons."
 }
