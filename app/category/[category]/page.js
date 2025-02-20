@@ -22,9 +22,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: name.charAt(0).toUpperCase() + name.slice(1),
-    description: `All ${name} posts`,
+    description: `Tout les Articles sur ${name}`,
     openGraph: {
-      images: [{ url: image }],
+      images: [{ url: image }]
     },
   };
 }

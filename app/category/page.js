@@ -3,10 +3,12 @@ import allPosts from "@/data/posts.json";
 import { popularCategories } from "@/functions/categories";
 import Image from "next/image";
 import Link from "next/link";
+import {slugify} from "@/utils/slugify";
+import config from "@/config/site.config.json";
 
 export const metadata = {
-  title: "All Blog Category",
-  description: "All of Eyolo's Blog Category",
+  title: "Toutes les catégories - De vous à moi",
+  description: config.metaData.description,
 };
 
 const AllCategory = () => {
@@ -37,7 +39,7 @@ const AllCategory = () => {
             {categories.map((category, key) => (
               <div key={key} className="col">
                 <Link
-                  href={`/category/${category.name}`}
+                  href={`/category/${slugify(category.name)}`}
                   className="text-center group block h-full relative z-10 after:absolute after:content-[''] after:top-0 after:left-0 after:w-full after:h-full after:rounded-md after:z-[5] after:bg-gradient-to-t after:from-black/75 hover:after:from-dark"
                 >
                   <div className="relative overflow-clip rounded-md">
