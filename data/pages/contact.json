@@ -1,15 +1,15 @@
 {
   "slug": "contact",
   "frontmatter": {
-    "title": "Contact Us",
-    "description": "Laissez-nous un e-mail pour explorer des collaborations ou des opportunités de carrière.",
+    "title": "Nous Contacter",
+    "description": "N'hésitez pas à nous contacter pour toutes questions ou suggestions",
     "contact_info": {
       "title": {
         "divider": true,
         "first_half": "Let’s work",
         "second_half": "Together"
       },
-      "description": "Laissez-nous un e-mail pour explorer des collaborations ou des opportunités de carrière."
+      "description": "N'hésitez pas à nous contacter pour toutes questions ou suggestions"
     },
     "contactForm": {
       "title": "It's all starts with hello..",
