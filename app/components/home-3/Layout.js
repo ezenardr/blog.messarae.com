@@ -4,8 +4,7 @@ import Welcome from "@/components/Welcome";
 const Layout = ({ children }) => {
   return (
     <main className="flex flex-col min-h-screen ">
-        <Welcome/>
-
+        {/*<Welcome/>*/}
       <section>{children}</section>
       <Footer />
     </main>
