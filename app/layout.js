@@ -31,17 +31,17 @@ export default function RootLayout({ children }) {
       lang="fr"
       className={`${fontPrata.variable} ${fontLexendDeca.variable}`}
     >
-      <body className="font-secondary">
-        <NextTopLoader
-          color="#ff4848"
-          shadow="none"
-          showSpinner={false}
-          zIndex={9999999}
-          height={2}
-        />
-        {/*<DeviceSizeIndicator />*/}
-        {children}
-      </body>
+    <body className="font-secondary">
+    <NextTopLoader
+        color="#ff4848"
+        shadow="none"
+        showSpinner={false}
+        zIndex={9999999}
+        height={2}
+    />
+    {/*<DeviceSizeIndicator />*/}
+    {children}
+    </body>
     </html>
   );
 }
