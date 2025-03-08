@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="row gy-4">
           <div className="lg:col-5">
             <p className="font-light max-w-xs">
-              N&apos;hésitez pas à nous contacter pour toute question ou suggestion.
+              N&apos;hésitez pas à nous contacter pour toute questions ou suggestions.
             </p>
           </div>
           <div className="lg:col-7">
