@@ -9,6 +9,9 @@ export const metadata = {
   title: config.metaData.title,
   description: config.metaData.description,
   url: config.siteURL,
+  verification: {
+    google: 'HIs3toHJ1XCdgVbyW3IW_TdZUotM0eonSg1oR1aqiDU',
+  },
   siteName: config.metaData.title,
   type: "website",
 
