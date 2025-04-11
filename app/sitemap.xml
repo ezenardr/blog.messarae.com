@@ -1,92 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://blog.messarae.com/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/about</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/contact</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category/style-de-vie</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category/coup-de-coeur</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category/actu-sante</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category/a-coeur-ouvert</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category/visages-inspirants</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/celebration-de-la-force-feminine</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/plus-grand-que-le-ciel</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/vers-une-estime-de-soi-renouvelee</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/jamais-sans-mon-frere</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/entre-espoir-et-action</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/blog</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/les-effets-du-lait-sur-la-sante-gastrique</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/ad-vitam-aeternam</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/mesdames-je-vous-ai-deniche-une-pepite</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/blog?filter=popular</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/category</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.messarae.com/author/messara-ezenard</loc>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset>
+    <url>
+        <loc>https://messarae.com/</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/about</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/contact</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category/style-de-vie</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category/visages-inspirants</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category/coup-de-coeur</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category/actu-sante</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category/a-coeur-ouvert</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/claudine-hilaire</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/ego</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/celebration-de-la-force-feminine</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/plus-grand-que-le-ciel</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/vers-une-estime-de-soi-renouvelee</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/blog</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/les-effets-du-lait-sur-la-sante-gastrique</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/ad-vitam-aeternam</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/blog?filter=popular</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/category</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/mesdames-je-vous-ai-deniche-une-pepite</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/jamais-sans-mon-frere</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/entre-espoir-et-action</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://messarae.com/author/messara-ezenard</loc>
+        <lastmod>2025-04-11T11:52:30+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
 </urlset>
