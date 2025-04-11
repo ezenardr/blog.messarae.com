@@ -19,7 +19,7 @@ export const metadata = {
     icon: "/images/favicon.png",
   },
 
-  metadataBase: new URL("https://blog.messarae.com"),
+  metadataBase: new URL("https://messarae.com"),
   alternates: {
     canonical: "/",
   },

@@ -6,8 +6,8 @@
     "keyword" : "minimal",
     "ogImage" : "/images/opengraph-image.jpg"
   },
-  "baseURL" : "",
-  "siteURL" : "https://blog.messarae.com",
+  "baseURL" : "https://messarae.com",
+  "siteURL" : "https://messarae.com",
   "logo" : "/images/logo.svg",
   "logoWhite" : "/images/logo-white.svg",
   "logoText" : "De vous à moi",

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://blog.messarae.com
+Host: https://messarae.com
 
 # Sitemaps
-Sitemap: https://blog.messarae.com/sitemap.xml
+Sitemap: https://messarae.com/sitemap.xml
