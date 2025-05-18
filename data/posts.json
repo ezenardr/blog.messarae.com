@@ -1,13 +1,31 @@
 [
   {
+    "slug": "jean-jacques-dessalines",
+    "frontmatter": {
+      "published": true,
+      "title": "Jean-Jacques Dessaline: 21 Pwen konnen sou lavi li",
+      "description": "",
+      "image": "/images/blog/jean-jacques-dessalines.jpg",
+      "date": "2025-05-18",
+      "category": "coup-de-coeur",
+      "author": "Messara Ezenard",
+      "featured": true,
+      "trending": true,
+      "post_of_the_week": true,
+      "authorImage": "/images/author/messara-ezenard.jpg",
+      "readingTime": "01 MIN TO READ"
+    },
+    "content": "Qui peut évaluer combien de kilomètres peut parcourir une femme enceinte s'enfuyant avec le souci que son enfant ne naisse en plein coeur du système esclavagiste?\r\n\r\nComment est-ce qu'une Afrikaine vit cette rupture brutale de statut?\r\n\r\nHier femme aimée et respectée des siens, aujourd'hui marchandise palpée, soupesée, par des étrangers afin d'y étiqueter un prix. Combien de sacrifices une Noire devra - t-elle offrir pour tenter de sauver une part de l'âme ou de l'esprit de la génération future?\r\n\r\n> De cette femme est né Le libérateur: Jean Jacques Dessaline.\r\n\r\nJ'ai lu ce livre il ya quelques mois, mais  le\r\ndestin a voulu que je vous le recommande aujourd'hui en cette date significative pour nous Ayisyen.\r\n\r\nEske nou ap kontinye mache tankou foumi fou? Oubyen nap retounen nan istwa nou pou nou aprann konn kiyès nou ye?\r\n\r\nBonne lecture.\r\n\r\n<figure>\r\n    <img src={'/images/blog/jean-jacques-dessalines.jpg'} alt={'Dessaline 21 pwen konnen sou lavi Li.'}/>\r\n    <figcaption>Extrait de Jean Jacques Dessaline 21 pwen konnen sou lavi Li.</figcaption>\r\n</figure>"
+  },
+  {
     "slug": "roodia-roseus",
     "frontmatter": {
       "published": true,
       "title": "Derrière le Sourire: La Force et la Résilience d'une Femme Exemplaire",
       "description": "",
       "image": "/images/blog/roodia-2.jpg",
-      "date": "2025-04-13",
-      "category": "coup-de-coeur",
+      "date": "2025-05-10",
+      "category": "a-coeur-ouvert",
       "author": "Messara Ezenard",
       "featured": true,
       "trending": true,
